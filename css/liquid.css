@@ -1,0 +1,129 @@
+body {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 0 none;
+    font-size: 90%;
+    margin: 0;
+    min-width: 600px;
+    padding: 0;
+    width: 100%;
+}
+a {
+    color: #336699;
+}
+a:hover {
+    background: none repeat scroll 0 0 #336699;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+h1, h2, h3 {
+    margin: 0.8em 0 0.2em;
+    padding: 0;
+}
+p {
+    margin: 0.4em 0 0.8em;
+    padding: 0;
+}
+img {
+/*    margin: 10px 0 5px;*/
+}
+#header {
+    clear: both;
+    float: left;
+    width: 100%;
+}
+#header {
+    border-bottom: 1px solid #000000;
+}
+#header p, #header h1, #header h2 {
+    margin: 0;
+    padding: 0.4em 15px 0;
+}
+#header ul {
+    clear: left;
+    float: left;
+    list-style: none outside none;
+    margin: 10px 0 0;
+    padding: 0;
+    width: 100%;
+}
+#header ul li {
+    display: inline;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+#header ul li a {
+    background: none repeat scroll 0 0 #EEEEEE;
+    color: #000000;
+    display: block;
+    float: left;
+    left: 15px;
+    line-height: 1.3em;
+    margin: 0 0 0 1px;
+    padding: 3px 10px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+#header ul li a:hover {
+    background: none repeat scroll 0 0 #336699;
+    color: #FFFFFF;
+}
+#header ul li a.active, #header ul li a.active:hover {
+    background: none repeat scroll 0 0 #000000;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+#header ul li a span {
+    display: block;
+}
+#layoutdims {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border-top: 4px solid #000000;
+    clear: both;
+    margin: 0;
+    padding: 6px 15px !important;
+    text-align: right;
+}
+.colmask {
+    clear: both;
+    float: left;
+    overflow: hidden;
+    width: 100%;
+}
+.colright, .colmid, .colleft {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.col1, .col2, .col3 {
+    float: left;
+    overflow: hidden;
+    padding: 0 0 1em;
+    position: relative;
+}
+.doublepage {
+    background: none repeat scroll 0 0 #EEEEEE;
+}
+.doublepage .colleft {
+    background: none repeat scroll 0 0 #FFFFFF;
+    right: 50%;
+}
+.doublepage .col1 {
+    left: 52%;
+    width: 46%;
+}
+.doublepage .col2 {
+    left: 56%;
+    width: 46%;
+}
+#footer {
+    border-top: 1px solid #000000;
+    clear: both;
+    float: left;
+    width: 100%;
+}
+#footer p {
+    margin: 0;
+    padding: 10px;
+}

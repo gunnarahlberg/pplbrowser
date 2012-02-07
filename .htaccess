@@ -1,0 +1,22 @@
+ErrorDocument 404 /index.html
+ExpiresActive On
+ExpiresDefault A0
+ 
+# 1 YEAR
+<FilesMatch "\.(flv|ico|pdf|avi|mov|ppt|doc|mp3|wmv|wav)$">
+ExpiresDefault A9030400
+</FilesMatch>
+
+<FilesMatch "\.(html)$">
+ExpiresDefault A9030400
+</FilesMatch>
+ 
+# 1 WEEK
+<FilesMatch "\.(jpg|jpeg|png|gif|swf)$">
+ExpiresDefault A604800
+</FilesMatch>
+ 
+# 3 HOUR
+<FilesMatch "\.(txt|xml|js|css)$">
+ExpiresDefault A10800"
+</FilesMatch>
